@@ -4,6 +4,12 @@
 <head>
     <title>cat profile</title>
     <style>
+        .main-div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
         .profile-picture-div {
             width: 75px;
             height: 75px;
@@ -19,7 +25,8 @@
             margin-bottom: 3px;
         }
 
-        p, button {
+        p,
+        button {
             font-family: arial;
             margin-top: 0;
             margin-bottom: 0;
@@ -42,8 +49,8 @@
             padding-right: 10px;
             margin-left: 50px;
             margin-bottom: px;
-            
-    
+
+
         }
 
         .animal {
@@ -55,18 +62,27 @@
             color: gray;
             font-size: 14px;
         }
-        .follow-div {
-        
-        }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="main-div">
         <div class="profile-picture-div">
-            <img class="profile-picture"  src="pictures/cat.jpg">
+            <img class="profile-picture" src="pictures/cat.jpg">
         </div>
-        <div>
+        <div class="description">
+            <p class="name">Oliver</p>
+            <p class="animal">the cat</p>
+            <p class="popular">Popular</p>
+        </div>
+        <div class="follow-div">
+            <button class="follow-button">Follow</button>
+        </div>
+
+        <div class="profile-picture-div">
+            <img class="profile-picture" src="pictures/cat.jpg">
+        </div>
+        <div class="description">
             <p class="name">Oliver</p>
             <p class="animal">the cat</p>
             <p class="popular">Popular</p>
