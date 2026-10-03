@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex box</title>
+    <style>
+        .home {
+            font-family: arial;
+
+        }
+
+        .number {
+            font-family: arial;
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 3px;
+            padding-top: 3px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        
+        .body {
+            border: solid;
+        border-color: gray;
+        border-width: 1px;
+        border-radius: 6px;
+        width: 300px;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div class="div">
+        <div class="home">Home</div>
+        <div class="number">14</div>
+    </div>
+
+    <div class="div">
+        <div class="home">Notification</div>
+        <div class="number">3</div>
+    </div>
+
+    <div class="div">
+        <div class="home">Messages</div>
+        <div class="number">5</div>
+    </div>
+</body>
+
+</html>
