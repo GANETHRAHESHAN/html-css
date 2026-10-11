@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>facebook</title>
+        <style>
+            body {
+                height: 3000px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            img {
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+                margin-right: 10px;
+            }
+
+            .request {
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .pic-name {
+                display: flex;
+                align-items: center;
+            }
+
+            .name {
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .addfriend {
+                display: flex;
+                align-items: center;
+            }
+
+            .add {
+                background-color: rgb(48, 95, 248);
+                color: white;
+                margin-right: 5px;
+                border: none;
+                padding-left: 14px;
+                padding-right: 14px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+
+            .message {
+                background-color: rgb(176, 176, 176);
+                color: black;
+                font-weight: bold;
+                margin-right: 5px;
+                border: none;
+                padding-left: 14px;
+                padding-right: 14px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                border-radius: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="request">
+            <div class="pic-name">
+                <div><img src="pictures/cat.jpg"></div>
+                <div class="name">Ganethra Heshan</div>
+            </div>
+            <div class="addfriend">
+                <button class="add">Add Friend</button>
+                <button class="message">Message</button>
+            </div>
+        </div>
+    </body>
+</html>
